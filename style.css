@@ -1,4 +1,13 @@
-/* GLOBAL VARIABLES */
+/*
+*   GLOBAL VARIABLES
+*/ 
+
+
+/*
+* ROOT VARIABLES
+*/
+
+
 :root{
     --bg-body:hsl(0, 0%, 8%);
     --bg-body2:hsl(0, 0%, 14%);
@@ -35,3 +44,4 @@ body {
     background-color: var(--bg-body);
     color: var(--text1);
 }
+

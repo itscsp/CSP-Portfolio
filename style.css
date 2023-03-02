@@ -1,3 +1,23 @@
+/* GLOBAL VARIABLES */
+:root{
+    --bg-body:hsl(0, 0%, 8%);
+    --bg-body2:hsl(0, 0%, 14%);
+    --accent: hsl(153, 71%, 59%);
+    --text1: hsl(0, 0%, 100%);
+    --text2: hsl(0, 0%, 85%);
+    --invalid:hsl(7, 100%, 68%);
+
+    --fs-18: 1.125rem;
+    --fs-88: 5.5rem;
+    --fs-72: 4.5rem;
+    --fs-40: 2.5rem;
+    --fs-48: 3rem;
+    --fs-36: 2.25rem;
+    --fs-32: 2rem;
+    --fs-24: 1.5rem;
+    --fs-20: 1.25rem;
+}
+
 html {
     box-sizing: border-box;
     font-size: 100%;
@@ -11,5 +31,7 @@ html {
 
 body {
     margin: 0;
-    padding: 0;
+    font-family: 'Space Grotest', sans-serif;
+    background-color: var(--bg-body);
+    color: var(--text1);
 }

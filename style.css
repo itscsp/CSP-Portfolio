@@ -25,6 +25,7 @@
     --fs-32: 2rem;
     --fs-24: 1.5rem;
     --fs-20: 1.25rem;
+    --container: 69.375rem;
 }
 
 html {
@@ -45,3 +46,14 @@ body {
     color: var(--text1);
 }
 
+.wrapper {
+    width: calc(100% - 2rem);
+    max-width: var(--container);
+    margin-inline: auto;
+}
+
+@media (min-width: 37.5em) { /* 600px */
+    .wrapper {
+        width: calc(100% - 3.75xrem);
+    }
+}

@@ -79,10 +79,36 @@
     </header>
 
     <main id="main">
-        <div class="wrapper">
-            <h1>Hello, and welcome to my portfolio! My name is Chethan S Poojary.</h1>
-        </div>
-    </main>
+      <section class="hero">
+          <div class="wrapper hero__swrapper">
+  
+              <picture >
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="/assets/images/image-profile-desktop.webp"
+                />
+                <source
+                  media="(min-width: 37.5em)"
+                  srcset="/assets/images/image-profile-tablet.webp"
+                />
+                <img
+                  class="hero__image"
+                  src="/assets/images/image-profile-mobile.webp"
+                  alt="picture of Adam Keyes"
+                  
+                  height="383"
+                />
+              </picture>
+  
+              <div class="hero__text">
+                  <h1 class="hero__headline">Nice to meet you! I'm Chethan S Poojary</h1>
+                  <p class="hero__headline">I'm a frontend web developer with expertise in several technologies including Wordpress, Statamic CMS, React Js</p>
+                  <a class="hero__contact" href="#">Contact me</a>
+              </div>
+  
+          </div>
+      </section>
+      </main>
 
     <footer class="footer">
 

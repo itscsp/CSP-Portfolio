@@ -1,4 +1,3 @@
-
 /*
 * ROOT VARIABLES
 */
@@ -94,6 +93,9 @@ svg:hover path{
 
 .header {
     margin-block-start: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -131,4 +133,38 @@ svg:hover path{
         flex: 1;
         margin-inline-end: auto;
     }
+}
+
+/*
+*   HERO
+*/
+
+.hero{
+
+}
+
+.hero__wrapper{
+    position: relative;
+}
+
+.hero__image{
+    display: block;
+    margin-inline: auto;
+    
+}
+
+.hero__text{
+
+}
+
+.hero__headline{
+
+}
+
+.hero__headline{
+
+}
+
+.hero__contact{
+
 }
